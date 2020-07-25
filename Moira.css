@@ -1,0 +1,40 @@
+/*Elements principaux de la page */
+
+#conteneur
+{
+	display: flex;
+
+}
+
+aside
+{
+    background-color: #9C27B0;
+    border-radius: 15px;
+    padding : 5px;
+    color: #212121;
+    font-size: 0.9em;
+}
+
+aside h1, h3
+{
+	background-color: #FF9800;
+}
+
+aside h2
+{
+	background-color: #FF9800;
+}
+
+
+section
+{
+	text-align: center;
+}
+
+#photo_Miss_L
+{
+	margin-top: 15px;
+	border-radius: 100px;
+	position: relative;
+	overflow: hidden;
+}

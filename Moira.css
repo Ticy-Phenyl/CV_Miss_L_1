@@ -50,18 +50,3 @@ header h2, h4, h5, h6
 	overflow: hidden;
 }
 
-#logo
-{
-	display: flex;
-    flex-direction: row;
-    align-items: stretch;
-}
-
-
-
-header h4
-{
-	display: flex;
-	font: italic large bolder 20px cursive;
-	padding: 18px;
-}	

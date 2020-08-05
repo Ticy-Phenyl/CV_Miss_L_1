@@ -57,3 +57,14 @@ header h2, h4, h5, h6
   height: 250px;
 
 }
+
+#sektion_1
+{
+	margin-left: 100px;
+	display: flex;
+	column-width: 150px;
+  column-fill: balance;
+  height: 150px;
+  text-align: left;
+
+}

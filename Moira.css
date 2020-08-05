@@ -50,3 +50,10 @@ header h2, h4, h5, h6
 	overflow: hidden;
 }
 
+#sektion
+{	
+	column-width: 150px;
+  column-fill: balance;
+  height: 250px;
+
+}

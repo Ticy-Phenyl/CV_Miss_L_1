@@ -2,7 +2,8 @@
 
 #conteneur
 {
-	display: flex;	
+	display: flex;
+	text-align: center;	
 
 }
 
@@ -16,19 +17,20 @@ aside
 
 aside h1, h3
 {		
+	font-size: 25px;
 	background-color: #FF9800;
+	text-align: center;
 }
 
 aside h2
 {
 	background-color: #FF9800;
+	text-align: center;
 }
 
-aside img
+aside i
 {
-	border-radius: 100px;
-	margin: 1.5em;
-	
+	border-radius: 100%
 }
 
 
@@ -39,13 +41,16 @@ section
 
 header h2, h4, h5, h6
 {
-	background : url('images/separateur.png') repeat-x bottom; 
+	background : url('images/separateur.png') repeat-x bottom;
+	font-size: 22px; 
 }
 
 #photo_Miss_L
 {
+	margin-left: 70px;
+	margin-right: 70px;
 	margin-top: 15px;
-	border-radius: 100px;
+	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
 }

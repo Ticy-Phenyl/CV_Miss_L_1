@@ -58,7 +58,7 @@ header h2, h4, h5, h6
 
 }
 
-#sektion_1
+#noms
 {
 	margin-left: 100px;
 	display: flex;
@@ -66,5 +66,6 @@ header h2, h4, h5, h6
   column-fill: balance;
   height: 150px;
   text-align: left;
-
 }
+
+

@@ -2,7 +2,8 @@
 
 #conteneur
 {
-	display: flex;	
+	display: flex;
+	text-align: center;	
 
 }
 
@@ -16,21 +17,24 @@ aside
 
 aside h1, h3
 {		
+	font-size: 25px;
 	background-color: #FF9800;
+	text-align: center;
 }
 
 aside h2
 {
 	background-color: #FF9800;
+	text-align: center;
 }
 
-aside img
+.circle-icon
 {
-	border-radius: 100px;
-	margin: 1.5em;
-	
+	background : #9C27B0;
+	border : 1px solid #000;
+	padding: 7px;
+	border-radius: 50%;
 }
-
 
 section
 {
@@ -39,22 +43,32 @@ section
 
 header h2, h4, h5, h6
 {
-	background : url('images/separateur.png') repeat-x bottom; 
+	background : url('images/separateur.png') repeat-x bottom;
+	font-size: 22px; 
 }
 
 #photo_Miss_L
 {
+	margin-left: 70px;
+	margin-right: 70px;
 	margin-top: 15px;
-	border-radius: 100px;
+	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
+
+}
+
+#coordonnees
+{
+	margin-right: 50%;
+	
 }
 
 #sektion
 {	
 	column-width: 150px;
-  column-fill: balance;
-  height: 250px;
+  	column-fill: balance;
+  	height: 250px;
 
 }
 
@@ -63,9 +77,13 @@ header h2, h4, h5, h6
 	margin-left: 100px;
 	display: flex;
 	column-width: 150px;
-  column-fill: balance;
-  height: 150px;
-  text-align: left;
+	column-fill: balance;
+  	height: 150px;
+  	text-align: left;
 }
 
 
+@media all and (max-width: 1024px)
+{
+
+}

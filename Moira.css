@@ -11,6 +11,7 @@ aside
     padding : 1px;
     color: #212121;
     font-size: 0.9em;
+    text-align: justify;
 }
 
 aside h1, h3
@@ -31,7 +32,7 @@ aside h2
 	background : #9C27B0;
 	border : 1px solid #000;
 	padding: 7px;
-	border-radius: 50%;
+	border-radius: 50%;		
 }
 
 section
@@ -43,6 +44,11 @@ header h2, h4, h5, h6
 {
 	background : url('images/separateur.png') repeat-x bottom;
 	font-size: 22px; 
+}
+
+header h4, h5, h6
+{
+	
 }
 
 #photo_Miss_L

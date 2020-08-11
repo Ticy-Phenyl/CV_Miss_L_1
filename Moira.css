@@ -5,6 +5,11 @@
 
 }
 
+hr
+{
+	color: #FF9800;
+}
+
 aside
 {
     background-color: #9C27B0;
@@ -42,13 +47,12 @@ section
 
 header h2, h4, h5, h6
 {
-	background : url('images/separateur.png') repeat-x bottom;
 	font-size: 22px; 
 }
 
 header h4, h5, h6
 {
-	
+	margin-left: auto;
 }
 
 #photo_Miss_L
@@ -64,26 +68,24 @@ header h4, h5, h6
 
 #coordonnees
 {
-	margin-right: 50%;
-	
+	margin-left: 35px;
+	margin-right: 10px;
 }
 
 #sektion
 {	
-	column-width: 150px;
-  	column-fill: balance;
-  	height: 250px;
-
+	columns: 2;
+	column-gap: 70px;
+ 	padding-left: 15px;
+  	text-align: left;
 }
 
 #noms
 {
-	margin-left: 100px;
-	display: flex;
-	column-width: 150px;
-	column-fill: balance;
-  	height: 150px;
-  	text-align: left;
+	columns: 2;
+	column-gap: 120px;
+	text-align: left;
+	padding-left: 150px;
 }
 
 

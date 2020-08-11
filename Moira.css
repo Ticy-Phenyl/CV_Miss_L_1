@@ -5,6 +5,13 @@
 
 }
 
+body
+{
+	display: flex;
+	text-align: center;
+	padding-left: 185px;
+}
+
 hr
 {
 	color: #FF9800;
@@ -37,6 +44,12 @@ aside h2
 	text-align: center;
 }
 
+#loisirs
+{
+	text-align: center;
+
+}
+
 .circle-icon
 {
 	background : #9C27B0;
@@ -62,9 +75,10 @@ header h2, h4, h5, h6
 	font-size: 22px; 
 }
 
-header h4, h5, h6
+#parties
 {
-	margin-left: auto;
+	text-align: left;
+	padding-left: 55px;
 }
 
 #photo_Miss_L
@@ -97,7 +111,7 @@ header h4, h5, h6
 	columns: 2;
 	column-gap: 120px;
 	text-align: left;
-	padding-left: 150px;
+	padding-left: 55px;
 }
 
 

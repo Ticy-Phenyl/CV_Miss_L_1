@@ -7,6 +7,7 @@
 
 body
 {
+	font: 1em/150% Helvetica, Arial, sans-serif;
 	display: flex;
 	text-align: center;
 	padding-left: 185px;
@@ -15,11 +16,13 @@ body
 hr
 {
 	color: #FF9800;
+
 }
 
 .under
 {
 	text-decoration: underline #FF9800;
+	margin-bottom: 1px;
 }
 
 aside
@@ -82,9 +85,9 @@ header h2, h4, h5, h6
 }
 
 #photo_Miss_L
-{
-	margin-left: 70px;
-	margin-right: 70px;
+{	
+	margin-left: 98px;
+	margin-right: 98px;
 	margin-top: 15px;
 	border-radius: 100%;
 	position: relative;

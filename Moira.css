@@ -10,6 +10,11 @@ hr
 	color: #FF9800;
 }
 
+.under
+{
+	text-decoration: underline #FF9800;
+}
+
 aside
 {
     background-color: #9C27B0;
@@ -38,11 +43,18 @@ aside h2
 	border : 1px solid #000;
 	padding: 7px;
 	border-radius: 50%;		
+
 }
 
 section
 {
 	text-align: center;
+}
+
+header h1, h2
+{
+	display: flex;
+	padding-left: 55px;
 }
 
 header h2, h4, h5, h6

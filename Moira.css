@@ -89,11 +89,20 @@ section h4, h5, h6
 	color: #9C27B0;
 }
 
+footer h6
+{
+	padding-top: 30px;
+	text-align: left;
+	padding-left: 55px;
+}
+
 #parties
 {
 	padding-top: 30px;
 	text-align: left;
 	padding-left: 55px;
+	columns: 2;
+	column-gap: 70px;
 }
 
 #photo_Miss_L

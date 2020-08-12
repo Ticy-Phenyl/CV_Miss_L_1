@@ -67,6 +67,11 @@ section
 	text-align: center;
 }
 
+#couleur_titre
+{
+	color: #9C27B0;
+}
+
 header h1, h2
 {
 	display: flex;
@@ -80,14 +85,15 @@ header h2, h4, h5, h6
 
 #parties
 {
+	padding-top: 30px;
 	text-align: left;
 	padding-left: 55px;
 }
 
 #photo_Miss_L
 {	
-	margin-left: 98px;
-	margin-right: 98px;
+	margin-left: 110px;
+	margin-right: 110px;
 	margin-top: 15px;
 	border-radius: 100%;
 	position: relative;
@@ -105,7 +111,7 @@ header h2, h4, h5, h6
 {	
 	columns: 2;
 	column-gap: 70px;
- 	padding-left: 15px;
+ 	padding-left: 55px;
   	text-align: left;
 }
 

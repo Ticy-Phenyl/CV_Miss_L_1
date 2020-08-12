@@ -1,0 +1,149 @@
+#conteneur
+{
+	display: flex;
+	text-align: center;	
+
+}
+
+body
+{
+	font: 1em/150% Helvetica, Arial, sans-serif;
+	display: flex;
+	text-align: center;
+	padding-left: 185px;
+}
+
+hr
+{
+	color: #FF9800;
+
+}
+
+.under
+{
+	text-decoration: underline #FF9800;
+	margin-bottom: 1px;
+}
+
+aside
+{
+    background-color: #9C27B0;
+    padding : 1px;
+    color: #212121;
+    font-size: 0.9em;
+    text-align: justify;
+}
+
+aside h1, h3
+{		
+	font-size: 25px;
+	background-color: #FF9800;
+	text-align: center;
+}
+
+aside h2
+{
+	font-size: 25px;
+	background-color: #FF9800;
+	text-align: center;
+}
+
+#loisirs
+{
+	text-align: center;
+
+}
+
+.circle-icon
+{
+	background : #9C27B0;
+	border : 1px solid #000;
+	padding: 7px;
+	border-radius: 50%;		
+
+}
+
+section
+{
+	text-align: center;
+}
+
+#couleur_titre
+{
+	color: #9C27B0;
+}
+
+header h1, h2
+{
+	display: flex;
+	padding-left: 55px;
+}
+
+section h2, h4, h5, h6
+{
+	font-size: 28px; 
+}
+
+section h4, h5, h6
+{
+	color: #9C27B0;
+}
+
+footer h6
+{
+	padding-top: 30px;
+	text-align: left;
+	padding-left: 55px;
+}
+
+#parties
+{
+	padding-top: 30px;
+	text-align: left;
+	padding-left: 55px;
+	columns: 2;
+	column-gap: 70px;
+}
+
+#photo_Miss_L
+{	
+	margin-left: 110px;
+	margin-right: 110px;
+	margin-top: 15px;
+	border-radius: 100%;
+	position: relative;
+	overflow: hidden;
+
+}
+
+#coordonnees
+{
+	margin-left: 35px;
+	margin-right: 10px;
+}
+
+#sektion
+{	
+	columns: 2;
+	column-gap: 70px;
+ 	padding-left: 55px;
+  	text-align: left;
+}
+
+#noms
+{
+	columns: 2;
+	column-gap: 120px;
+	text-align: left;
+	padding-left: 55px;
+}
+
+.fa-pen-nib, .fa-briefcase, .fa-glasses, .fa-circle, .fa-dot-circle
+{
+	color: #FF9800;
+}
+
+@media all and (max-width: 1024px)
+{
+
+}	

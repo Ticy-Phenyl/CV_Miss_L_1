@@ -78,9 +78,14 @@ header h1, h2
 	padding-left: 55px;
 }
 
-header h2, h4, h5, h6
+section h2, h4, h5, h6
 {
-	font-size: 22px; 
+	font-size: 28px; 
+}
+
+section h4, h5, h6
+{
+	color: #9C27B0;
 }
 
 #parties
@@ -123,6 +128,10 @@ header h2, h4, h5, h6
 	padding-left: 55px;
 }
 
+.fa-pen-nib, .fa-briefcase, .fa-glasses, .fa-circle, .fa-dot-circle
+{
+	color: #FF9800;
+}
 
 @media all and (max-width: 1024px)
 {

@@ -21,6 +21,7 @@ body
 
 aside
 {
+
     background-color: #9C27B0;
     padding : 1px;
     color: #212121;
@@ -114,6 +115,11 @@ footer h6
 {
 	margin-left: 35px;
 	margin-right: 10px;
+}
+
+#about_me
+{
+	margin-left: 35px;
 }
 
 #sektion

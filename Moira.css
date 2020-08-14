@@ -10,7 +10,14 @@ body
 	font: 1em/150% Helvetica, Arial, sans-serif;
 	display: flex;
 	text-align: center;
-	padding-left: 185px;
+	padding-left: 20%;
+}
+
+hr
+{
+	width: 110%;
+	position: relative;
+	color: #FF9800;
 }
 
 .under
@@ -27,6 +34,8 @@ aside
     color: #212121;
     font-size: 0.9em;
     text-align: justify;
+    display: flex;
+    flex-direction: column;
 }
 
 aside h1, h3
@@ -40,11 +49,20 @@ aside h2
 {
 	font-size: 25px;
 	background-color: #FF9800;
-	text-align: center;
+}
+
+aside h3
+{
+	margin-top: auto;
 }
 
 #loisirs
 {
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: center;
 
 }
@@ -143,7 +161,15 @@ footer h6
 	color: #FF9800;
 }
 
+
+
 @media all and (max-width: 1024px)
 {
+#conteneur
+{
+	width: auto;
+}
+
+
 
 }	

@@ -1,8 +1,7 @@
 #conteneur
 {
 	display: flex;
-	border-color: grey;
-	border-style: solid;
+	border: 1.5px solid grey
 }
 
 body
@@ -68,32 +67,34 @@ aside h3
 
 }
 
-#couleur_titre
-{
+header h1 i
+{	
 	color: #9C27B0;
+	font-style: normal;
+}
+
+header h1
+{
+	font-size: xx-large;
 }
 
 header h1, h2
-{
+{	 
 	display: flex;
 	padding-left: 55px;
 		
 }
 
-section h2, h4, h5, h6
+section h2 i, h4, h5, h6
 {
+	font-style: normal;
 	font-size: 28px; 
 }
 
 section h4, h5, h6
 {
 	color: #9C27B0;
-	justify-content: space-around;
-	text-indent: 25px;
-	margin-right: 1px;
-
 }
-
 
 footer
 {
@@ -110,7 +111,11 @@ article
 {
 	margin-top: 40px;
 }
-	
+
+.test
+{
+
+}
 
 #parties
 {
@@ -143,19 +148,19 @@ article
 	margin-left: 35px;
 }
 
-#sektion, #sektion_1, #sektion_2, #sektion_3
+.sektion
 {	
 	columns: 2;
 	column-gap: 70px;
  	padding-left: 50px;
-  	text-align: left;
+  	text-align: justify;
 }
 
 #noms
 {
 	columns: 2;
 	column-gap: 120px;
-	text-align: left;
+	text-align: justify;
 	padding-left: 55px;
 }
 
@@ -164,6 +169,7 @@ article
 	color: #FF9800;
 	float: left;
 	padding-left: 50px;
+	display: flex;
 }
 
 .fa-circle, .fa-dot-circle
@@ -179,6 +185,3 @@ color: #FF9800;
 	width: auto;
 }
 
-
-
-}	

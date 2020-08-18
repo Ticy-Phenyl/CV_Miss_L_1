@@ -13,8 +13,8 @@ body
 
 .under
 {
-	text-decoration: underline #FF9800;
-	margin-bottom: 15px;
+	border-bottom: 2px solid #FF9800;
+	padding-bottom: 5px;
 }
 
 aside
@@ -26,6 +26,7 @@ aside
     font-size: 0.9em;
     display: flex;
     flex-direction: column;
+    height: 100%;
 }
 
 aside h1, h3
@@ -33,6 +34,8 @@ aside h1, h3
 	font-size: 25px;
 	background-color: #FF9800;
 	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 
 aside h2
@@ -40,6 +43,9 @@ aside h2
 	font-size: 25px;
 	background-color: #FF9800;
 	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-indent: 5px;
 }
 
 aside h3
@@ -75,7 +81,8 @@ header h1 i
 
 header h1
 {
-	font-size: xx-large;
+	font-size: 38px;
+	font-family: "Lucida Console", Courier, monospace;
 }
 
 header h1, h2
@@ -114,7 +121,14 @@ article
 
 .test
 {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
 
+#title
+{
+	display: flex;
+	padding-top: 10%;
 }
 
 #parties
@@ -128,12 +142,12 @@ article
 
 #photo_Miss_L
 {	
-	margin-left: 110px;
-	margin-right: 110px;
-	margin-top: 15px;
+	margin: 15px 110px 0 110px;
 	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
+	padding-top: 35px;
+	padding-bottom: 20px;
 
 }
 
@@ -152,8 +166,8 @@ article
 {	
 	columns: 2;
 	column-gap: 70px;
- 	padding-left: 50px;
   	text-align: justify;
+  	padding: 30px 0 20px 50px;
 }
 
 #noms
@@ -161,7 +175,7 @@ article
 	columns: 2;
 	column-gap: 120px;
 	text-align: justify;
-	padding-left: 55px;
+	padding: 10px 0 25px 55px
 }
 
 .fa-pen-nib, .fa-briefcase, .fa-glasses

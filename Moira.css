@@ -1,7 +1,7 @@
 #conteneur
 {
 	display: flex;
-	border: 1.5px solid grey
+	
 }
 
 body
@@ -9,9 +9,10 @@ body
 	font: 1em/100% Helvetica, Arial, sans-serif;
 	display: flex;
 	padding-left: 20%;
+	color: #616161;
 }
 
-#underage
+#ligne_h
 {
 	border-bottom: 2px solid #FF9800;
 	padding-bottom: 5px;
@@ -20,11 +21,13 @@ body
 .under
 {
 	border-bottom: 2px solid #FF9800;
-	padding-bottom: 40px;
+	padding-bottom: 16px;
+	width: 18em;
+
+	display: flex;
+	
 	/* width pour la taille du trait ms n'aligne plus h5 */
 }
-
-
 
 aside
 {
@@ -36,29 +39,43 @@ aside
     height: 100%;
 }
 
+.test
+{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	margin-bottom: 10px;
+}
+
 aside h1, h3
 {		
-	font-size: 25px;
+	font-size: 28px;
 	background-color: #FF9800;
 	display: flex;
 	justify-content: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 13px;
 }
 
 aside h2
 {
-	font-size: 25px;
+	font-size: 28px;
 	background-color: #FF9800;
 	display: flex;
-	text-align: center;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 aside h3
 {
 	margin-top: auto;
+}
+
+#monospace h1
+{
+	font-family: "Lucida Console", Courier, monospace;
 }
 
 
@@ -75,7 +92,7 @@ aside h3
 
 .circle-icon
 {
-	background : #9C27B0;
+	backgro
 	border : 1px solid #000;
 	padding: 7px;
 	border-radius: 50%;		
@@ -90,8 +107,10 @@ header h1 i
 
 header h1
 {
-	font-size: 38px;
+	font-size: 50px;
 	font-family: "Lucida Console", Courier, monospace;
+	word-spacing: -50%;
+	color: #212121;
 }
 
 header h1, h2
@@ -101,7 +120,7 @@ header h1, h2
 		
 }
 
-section h2 i, h4, h5, h6
+section h2 i
 {
 	font-style: normal;
 	font-size: 28px; 
@@ -109,18 +128,14 @@ section h2 i, h4, h5, h6
 
 section h4, h5, h6
 {
-	color: #9C27B0;
+	color: #212121;
+	font-size: 30px;
 }
 
 article
 {
 	margin-top: 40px;
-	
-}
-
-.test
-{
-	padding-top: 10px;
+	padding-top: 20px;
 	padding-bottom: 2px;
 }
 
@@ -141,7 +156,9 @@ article
 
 #photo_Miss_L
 {	
-	margin: 15px 110px 0 110px;
+	width: 190px;
+	height: 200px;
+	margin: 15px 110px 20px 110px;
 	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
@@ -153,7 +170,6 @@ article
 #coordonnees
 {
 	margin-left: 35px;
-	margin-right: 10px;
 }
 
 #about_me
@@ -165,9 +181,9 @@ article
 .sektion
 {	
 	columns: 2;
-	column-gap: 70px;
+	column-gap: 1px;
   	text-align: justify;
-  	padding: 30px 0 20px 50px;
+  	padding: 30px 90px 20px 50px;
 }
 
 #noms

@@ -73,12 +73,6 @@ aside h3
 	margin-top: auto;
 }
 
-#monospace h1
-{
-	font-family: "Lucida Console", Courier, monospace;
-}
-
-
 #loisirs
 {
 	display: flex;
@@ -92,7 +86,7 @@ aside h3
 
 .circle-icon
 {
-	backgro
+	background: #9C27B0;
 	border : 1px solid #000;
 	padding: 7px;
 	border-radius: 50%;		
@@ -215,3 +209,32 @@ color: #FF9800;
 	width: auto;
 }
 
+p
+{
+	color: #FF9800;
+}
+
+section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #photo_Miss_L img
+    {
+        width: 110px;
+        float: right;
+       margin-left: 15px;
+    }
+
+    aside
+    {
+        text-align: center;
+    }
+
+}

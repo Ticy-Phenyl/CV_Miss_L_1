@@ -22,8 +22,6 @@ body
 {
 	border-bottom: 2px solid #FF9800;
 	padding-bottom: 16px;
-	width: 18em;
-
 	display: flex;
 	
 	/* width pour la taille du trait ms n'aligne plus h5 */
@@ -47,7 +45,7 @@ aside
 	margin-bottom: 10px;
 }
 
-aside h1, h3
+aside h1, aside h2, aside h3
 {		
 	font-size: 28px;
 	background-color: #FF9800;
@@ -56,16 +54,6 @@ aside h1, h3
 	padding-top: 10px;
 	padding-bottom: 10px;
 	margin-top: 13px;
-}
-
-aside h2
-{
-	font-size: 28px;
-	background-color: #FF9800;
-	display: flex;
-	justify-content: center;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 aside h3
@@ -101,17 +89,17 @@ header h1 i
 
 header h1
 {
-	font-size: 50px;
+	font-size: 55px;
 	font-family: "Lucida Console", Courier, monospace;
 	word-spacing: -50%;
 	color: #212121;
 }
 
-header h1, h2
+header h1, header h2
 {	 
 	display: flex;
 	padding-left: 55px;
-		
+	margin-top: 0px;	
 }
 
 section h2 i
@@ -137,6 +125,7 @@ article
 {
 	display: flex;
 	padding-top: 10%;
+	margin-bottom: -20px;
 }
 
 #parties

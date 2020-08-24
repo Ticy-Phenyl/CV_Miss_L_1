@@ -20,11 +20,10 @@ body
 
 .under
 {
-	border-bottom: 2px solid #FF9800;
+	
 	padding-bottom: 16px;
 	display: flex;
 	
-	/* width pour la taille du trait ms n'aligne plus h5 */
 }
 
 aside
@@ -40,10 +39,19 @@ aside
 
 .test
 {
-	display: flex;
 	flex-direction: column;
 	padding-top: 10px;
 	margin-bottom: 10px;
+}
+
+hr
+{
+	
+	margin-bottom: 0px;
+	margin-top: -43px;
+	width: 670px;
+	margin-right: 2px;
+	color: #FF9800;
 }
 
 aside h1, aside h2, aside h3
@@ -184,7 +192,7 @@ article
 	columns: 2;
 	column-gap: 115px;
 	text-align: justify;
-	padding: 2px 30px 35px 55px
+	padding: 30px 30px 35px 55px
 }
 
 .fa-pen-nib, .fa-briefcase, .fa-glasses

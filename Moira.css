@@ -33,6 +33,7 @@ aside
 {
 	padding-top: 10px;
 	margin-bottom: 10px;
+	margin-top: -5px;	
 }
 
 .test_3
@@ -166,18 +167,64 @@ article
 	text-align: justify;	
 }
 
-.sektion
+#lieux
+{
+	margin: 4px 0 1px 140px;
+}
+
+.paragraphe
 {	
 	display: flex;
 	flex-direction: row;
   	padding: 30px 90px 20px 50px;
+  	width: 680px;
 }
 
-.sektion div
+.paragraphe div
 {
-	margin: 0.5em 0 1px 30%;
+	margin: 4px 0 1px 165px;
+}
+
+.brig b
+{
+	font-size: 21px;
+}
+
+.poste
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 200px;
 	vertical-align: baseline;
 }
+
+#hana
+{
+	margin-top: 28px;
+	margin-bottom: 144px;
+}
+
+#s0mbra
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 54px;
+}
+
+#angela
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 38%;
+	margin-top: -24.5%;
+}
+
+.brig
+{
+	text-align: left;
+	margin-bottom: 12%;
+}
+
 
 #noms
 {

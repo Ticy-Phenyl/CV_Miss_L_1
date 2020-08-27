@@ -51,6 +51,11 @@ hr
 	
 }
 
+#hr_2
+{
+	margin-top: -18px;
+}
+
 aside h1, aside h2, aside h3
 {		
 	font-size: 28px;
@@ -167,11 +172,6 @@ article
 	text-align: justify;	
 }
 
-#lieux
-{
-	margin: 4px 0 1px 140px;
-}
-
 .paragraphe
 {	
 	display: flex;
@@ -182,10 +182,10 @@ article
 
 .paragraphe div
 {
-	margin: 4px 0 1px 165px;
+	margin: 0px 0 1px 0px;
 }
 
-.brig b
+#bloc_general b, .bloc_2_droite b
 {
 	font-size: 21px;
 }
@@ -198,40 +198,54 @@ article
 	vertical-align: baseline;
 }
 
-#hana
+#exp_pro
+{
+	margin-top: -5%;
+}
+
+
+#premier_pt
 {
 	margin-top: 28px;
 	margin-bottom: 144px;
 }
 
-#s0mbra
+#bloc_general
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 54px;
+	margin-left: 54px;	
 }
 
-#angela
+#bloc_droit
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 38%;
-	margin-top: -24.5%;
+	margin: -25.9% 0 50px 35%;
 }
 
-.brig
+.haut_droit
 {
 	text-align: left;
-	margin-bottom: 12%;
+	margin-bottom: 14.5%;
 }
 
+.bas_droit
+{
+	margin-top: -7.3px;
+}
+
+.bloc_2_droite
+{
+	padding-left: 55px;
+}
 
 #noms
 {
 	columns: 2;
 	column-gap: 115px;
 	text-align: justify;
-	padding: 30px 30px 35px 55px
+	padding: 30px 30px 35px 50px
 }
 
 .fa-pen-nib, .fa-briefcase, .fa-glasses
@@ -242,10 +256,17 @@ article
 	display: flex;
 }
 
-.fa-circle, .fa-dot-circle
+.fa-circle
 {
-color: #FF9800;
-padding-right: 11px;
+	color: #FF9800;
+	padding-left: 3px;
+
+}
+
+.fa-dot-circle
+{
+	color: #FF9800;
+
 }
 
 

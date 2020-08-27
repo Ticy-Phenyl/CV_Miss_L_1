@@ -18,14 +18,6 @@ body
 	padding-bottom: 5px;
 }
 
-.under
-{
-	
-	padding-bottom: 16px;
-	display: flex;
-	
-}
-
 aside
 {
     background-color: #9C27B0;
@@ -37,21 +29,31 @@ aside
     /* width pour modifier longueur aside */
 }
 
-.test
+.marges_parties
 {
-	flex-direction: column;
 	padding-top: 10px;
 	margin-bottom: 10px;
+	margin-top: -5px;	
 }
+
+.test_3
+{
+	margin-top: 85%;
+}
+
 
 hr
 {
-	
-	margin-bottom: 0px;
-	margin-top: -43px;
+	display: flex;
 	width: 670px;
-	margin-right: 2px;
 	color: #FF9800;
+	margin: -11px 2px 0 3em;
+	
+}
+
+#hr_2
+{
+	margin-top: -18px;
 }
 
 aside h1, aside h2, aside h3
@@ -146,15 +148,6 @@ article
 	margin-bottom: -20px;
 }
 
-#parties
-{
-	padding-top: 30px;
-	text-align: left;
-	padding-left: 55px;
-	columns: 2;
-	column-gap: 70px;
-}
-
 #photo_Miss_L
 {	
 	width: 190px;
@@ -179,12 +172,72 @@ article
 	text-align: justify;	
 }
 
-.sektion
+.paragraphe
 {	
-	columns: 2;
-	column-gap: 1px;
-  	text-align: justify;
+	display: flex;
+	flex-direction: row;
   	padding: 30px 90px 20px 50px;
+  	width: 680px;
+}
+
+.paragraphe div
+{
+	margin: 0px 0 1px 0px;
+}
+
+#bloc_general b, .bloc_2_droite b
+{
+	font-size: 21px;
+}
+
+.poste
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 200px;
+	vertical-align: baseline;
+}
+
+#exp_pro
+{
+	margin-top: -5%;
+}
+
+
+#premier_pt
+{
+	margin-top: 28px;
+	margin-bottom: 144px;
+}
+
+#bloc_general
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 54px;	
+}
+
+#bloc_droit
+{
+	display: flex;
+	flex-direction: column;
+	margin: -25.9% 0 50px 35%;
+}
+
+.haut_droit
+{
+	text-align: left;
+	margin-bottom: 14.5%;
+}
+
+.bas_droit
+{
+	margin-top: -7.3px;
+}
+
+.bloc_2_droite
+{
+	padding-left: 55px;
 }
 
 #noms
@@ -192,7 +245,7 @@ article
 	columns: 2;
 	column-gap: 115px;
 	text-align: justify;
-	padding: 30px 30px 35px 55px
+	padding: 30px 30px 35px 50px
 }
 
 .fa-pen-nib, .fa-briefcase, .fa-glasses
@@ -203,9 +256,17 @@ article
 	display: flex;
 }
 
-.fa-circle, .fa-dot-circle
+.fa-circle
 {
-color: #FF9800;
+	color: #FF9800;
+	padding-left: 3px;
+
+}
+
+.fa-dot-circle
+{
+	color: #FF9800;
+
 }
 
 

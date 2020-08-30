@@ -1,76 +1,308 @@
-/*Elements principaux de la page */
-
 #conteneur
 {
 	display: flex;
-	text-align: center;	
+	
+}
 
+body
+{
+	font: 1em/100% Helvetica, Arial, sans-serif;
+	display: flex;
+	padding-left: 20%;
+	color: #616161;
+}
+
+#ligne_h
+{
+	border-bottom: 2px solid #FF9800;
+	padding-bottom: 5px;
 }
 
 aside
 {
     background-color: #9C27B0;
-    padding : 1px;
     color: #212121;
     font-size: 0.9em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* width pour modifier longueur aside */
 }
 
-aside h1, h3
+.marges_parties
+{
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: -5px;	
+}
+
+.test_3
+{
+	margin-top: 85%;
+}
+
+
+hr
+{
+	display: flex;
+	width: 670px;
+	color: #FF9800;
+	margin: -11px 2px 0 3em;
+	
+}
+
+#hr_2
+{
+	margin-top: -18px;
+}
+
+aside h1, aside h2, aside h3
 {		
-	font-size: 25px;
+	font-size: 28px;
 	background-color: #FF9800;
-	text-align: center;
+	display: flex;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-top: 2px;
 }
 
-aside h2
+aside h3
 {
-	background-color: #FF9800;
-	text-align: center;
+	margin-top: auto;
 }
 
-aside i
+#loisirs
 {
-	border-radius: 100%
+	display: flex;
+	justify-content: space-around;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+
 }
 
-
-section
+.circle-icon
 {
-	text-align: center;
+	background: #9C27B0;
+	border : 1px solid #000;
+	padding: 7px;
+	border-radius: 50%;		
+
 }
 
-header h2, h4, h5, h6
+header
 {
-	background : url('images/separateur.png') repeat-x bottom;
-	font-size: 22px; 
+	margin-top: -25px;
+	margin-bottom : 20px;
+}
+
+header h1 i
+{	
+	color: #9C27B0;	
+	font-style: normal;
+	font-weight: bold;
+	
+}
+
+header h1
+{
+	font-size: 55px;
+	font-family: fantasy;
+	font-weight: lighter;
+	word-spacing: -50%;
+	color: #212121;
+}
+
+header h1, header h2
+{	 
+	display: flex;
+	padding-left: 55px;
+	margin-top: 0px;	
+}
+
+section h2 i
+{
+	font-style: normal;
+	font-size: 28px; 
+}
+
+section h4, h5, h6
+{
+	color: #212121;
+	font-size: 30px;
+}
+
+article
+{
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+}
+
+#title
+{
+	display: flex;
+	padding-top: 22%;
+	margin-bottom: -20px;
 }
 
 #photo_Miss_L
-{
-	margin-left: 70px;
-	margin-right: 70px;
-	margin-top: 15px;
+{	
+	width: 190px;
+	height: 200px;
+	margin: 15px 110px 20px 110px;
 	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
+	padding-top: 35px;
+	padding-bottom: 3px;
+
 }
 
-#sektion
-{	
-	column-width: 150px;
-  column-fill: balance;
-  height: 250px;
+#coordonnees
+{
+	margin-left: 35px;
+}
 
+#about_me
+{
+	margin-left: 35px;
+	text-align: justify;	
+}
+
+.paragraphe
+{	
+	display: flex;
+	flex-direction: row;
+  	padding: 30px 90px 20px 50px;
+  	width: 680px;
+}
+
+.paragraphe div
+{
+	margin: 0px 0 1px 0px;
+}
+
+#bloc_general b, .bloc_2_droite b
+{
+	font-size: 21px;
+}
+
+.poste
+{
+	margin-left: 0px;
+	margin-top: 0px;
+	width: 200px;
+	vertical-align: baseline;
+}
+
+#exp_pro
+{
+	margin-top: -5%;
+}
+
+
+#premier_pt
+{
+	margin-top: 28px;
+	margin-bottom: 144px;
+}
+
+#bloc_general
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 54px;	
+}
+
+#bloc_droit
+{
+	display: flex;
+	flex-direction: column;
+	margin: -25.9% 0 50px 35%;
+}
+
+.haut_droit
+{
+	text-align: left;
+	margin-bottom: 14.5%;
+}
+
+.bas_droit
+{
+	margin-top: -7.3px;
+}
+
+.bloc_2_droite
+{
+	padding-left: 55px;
 }
 
 #noms
 {
-	margin-left: 100px;
+	columns: 2;
+	column-gap: 115px;
+	text-align: justify;
+	padding: 30px 30px 35px 50px
+}
+
+.fa-pen-nib, .fa-briefcase, .fa-glasses
+{
+	color: #FF9800;
+	float: left;
+	padding-left: 50px;
 	display: flex;
-	column-width: 150px;
-  column-fill: balance;
-  height: 150px;
-  text-align: left;
+}
+
+.fa-circle
+{
+	color: #FF9800;
+	padding-left: 3px;
+
+}
+
+.fa-dot-circle
+{
+	color: #FF9800;
+
 }
 
 
+@media all and (max-width: 1024px)
+{
+#conteneur
+{
+	width: auto;
+}
+
+p
+{
+	color: #FF9800;
+}
+
+section
+    {
+        flex-direction: column;
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    #photo_Miss_L img
+    {
+        width: 110px;
+        float: right;
+       margin-left: 15px;
+    }
+
+    aside
+    {
+        text-align: center;
+    }
+
+}

@@ -1,3 +1,2 @@
-# CV_Miss_L
-
-Projet août 2020
+# Cv_Miss_L
+permalink: /CV_Miss_L.html

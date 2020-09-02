@@ -33,7 +33,8 @@ aside
 {
 	padding-top: 10px;
 	margin-bottom: 10px;
-	margin-top: -5px;	
+	margin-top: -5px;
+	
 }
 
 .test_3
@@ -108,7 +109,7 @@ header h1 i
 
 header h1
 {
-	font-size: 55px;
+	font-size: 52px;
 	font-family: fantasy;
 	font-weight: lighter;
 	word-spacing: -50%;
@@ -122,16 +123,21 @@ header h1, header h2
 	margin-top: 0px;	
 }
 
-section h2 i
+article	 h2 i
 {
 	font-style: normal;
 	font-size: 28px; 
 }
 
-section h4, h5, h6
+article h4, h5, h6
 {
 	color: #212121;
 	font-size: 30px;
+}
+
+article h6
+{
+	margin-bottom: 39.9px;
 }
 
 article
@@ -185,7 +191,7 @@ article
 	margin: 0px 0 1px 0px;
 }
 
-#bloc_general b, .bloc_2_droite b
+.bloc_general b, .bloc_2_droite b
 {
 	font-size: 21px;
 }
@@ -206,8 +212,14 @@ article
 
 #premier_pt
 {
-	margin-top: 28px;
-	margin-bottom: 144px;
+	margin: 28px 0 144px 50px;
+
+}
+
+#second_pt
+{
+	margin-left: 50px;
+
 }
 
 #bloc_general
@@ -254,18 +266,24 @@ article
 	float: left;
 	padding-left: 50px;
 	display: flex;
+	width: 70px;
+	height: 30px;
+	font-weight: 900;
 }
+
 
 .fa-circle
 {
 	color: #FF9800;
 	padding-left: 3px;
+	padding-right: 1em;
 
 }
 
 .fa-dot-circle
 {
 	color: #FF9800;
+	padding-right: 0.7em
 
 }
 

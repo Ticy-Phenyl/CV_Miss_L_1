@@ -189,7 +189,7 @@ article
 
 .paragraphe div
 {
-	margin: 0px 0 1px 0px;
+	margin-bottom: 1px;
 }
 
 .bloc_general b, .bloc_2_droite b
@@ -253,6 +253,7 @@ article
 .bloc_2_droite
 {
 	padding-left: 55px;
+	margin-top: -4px;
 }
 
 #noms

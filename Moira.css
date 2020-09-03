@@ -112,7 +112,6 @@ header h1
 	font-size: 52px;
 	font-family: fantasy;
 	font-weight: lighter;
-	word-spacing: -50%;
 	color: #212121;
 }
 
@@ -175,6 +174,7 @@ article
 #about_me
 {
 	margin-left: 35px;
+	margin-bottom: 62%;
 	text-align: justify;	
 }
 
@@ -213,12 +213,14 @@ article
 #premier_pt
 {
 	margin: 28px 0 144px 50px;
+	display: flex;
 
 }
 
 #second_pt
 {
 	margin-left: 50px;
+	display: flex;
 
 }
 
@@ -233,7 +235,7 @@ article
 {
 	display: flex;
 	flex-direction: column;
-	margin: -25.9% 0 50px 35%;
+	margin: -25.9% 12% 50px 35%;
 }
 
 .haut_droit

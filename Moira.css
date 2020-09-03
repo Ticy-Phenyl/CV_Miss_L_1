@@ -182,8 +182,9 @@ article
 {	
 	display: flex;
 	flex-direction: row;
-  	padding: 30px 90px 20px 50px;
+  	padding: 0px 90px 20px 50px;
   	width: 680px;
+  	margin-top: 40px;
 }
 
 .paragraphe div
@@ -212,7 +213,7 @@ article
 
 #premier_pt
 {
-	margin: 28px 0 144px 50px;
+	margin: 40px 0 144px 50px;
 	display: flex;
 
 }
@@ -259,7 +260,8 @@ article
 	columns: 2;
 	column-gap: 115px;
 	text-align: justify;
-	padding: 30px 30px 35px 50px
+	padding: 0px 30px 35px 50px;
+	margin-top: 40px;
 }
 
 .fa-pen-nib, .fa-briefcase, .fa-glasses

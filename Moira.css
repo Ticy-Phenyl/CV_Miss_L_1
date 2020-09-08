@@ -32,14 +32,15 @@ aside
 .marges_parties
 {
 	padding-top: 10px;
-	margin-bottom: 10px;
+	margin-bottom: 30px;
 	margin-top: -5px;
 	
 }
 
 .test_3
 {
-	margin-top: 85%;
+	margin-top: 45%;
+	padding-top: 31%;
 }
 
 
@@ -146,7 +147,7 @@ article
 	padding-bottom: 2px;
 }
 
-#title
+#titre
 {
 	display: flex;
 	padding-top: 22%;
@@ -157,7 +158,7 @@ article
 {	
 	width: 190px;
 	height: 200px;
-	margin: 15px 110px 20px 110px;
+	margin: 15px 110px 30px 110px;
 	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
@@ -173,9 +174,11 @@ article
 
 #about_me
 {
+	
 	margin-left: 35px;
 	margin-bottom: 62%;
-	text-align: justify;	
+	text-align: justify;
+	word-spacing: 1rem;
 }
 
 .paragraphe
@@ -293,11 +296,14 @@ article
 }
 
 
-@media all and (max-width: 1024px)
+@media all and (max-width: 1040px)
 {
+
 #conteneur
 {
-	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 p
@@ -305,27 +311,85 @@ p
 	color: #FF9800;
 }
 
-section
-    {
-        flex-direction: column;
-    }
+.paragraphe b
+{
+	font-size: 1em;
+}
 
-    article, aside
-    {
-        width: auto;
-        margin-bottom: 15px;
-    }
+#about_me
+{
+	text-align: justify;
 
-    #photo_Miss_L img
-    {
-        width: 110px;
-        float: right;
-       margin-left: 15px;
-    }
+}
 
-    aside
-    {
-        text-align: center;
-    }
+#loisirs
+{
+	width: auto;
+}
+
+#premier_pt, #second_pt, .poste
+{
+	font-weight: bold;
+	color: #9C27B0;
+}
+
+header h1
+{
+	width: auto;
+	font-family: '20_dbregular';
+	text-align: justify;
+	font-size: 1.8em;
+	margin-right: 62%;
+
+}
+
+header h2
+{
+	font-size: 1.2em;
+}
+
+article h4, h5, h6
+{
+	font-size: 1.5em;
+	margin-right: 75%;
+}
+
+
+aside h1, aside h2, aside h3
+{
+	font-size: 1.3em;
+	justify-content: flex-start;
+	padding-left: 3px;
+}
+
+.fa-pen-nib, .fa-briefcase, .fa-glasses, .fa-dot-circle, .fa-circle
+{
+	position: absolute;
+  	top: -9999px;
+  	left: -9999px;
+}
+
+#photo_Miss_L
+{	
+	position: initial;
+	top: 25px;
+	right: 270px;
+	border-radius: 10px / 10px;
+
+}
+
+#noms
+{
+	display: flex;
+	flex-direction: column;
+	/* à conserver pour passage en vertical*/
+}
+
+.paragraphe
+{
+	display: flex;
+	flex-direction: column;
+}
+
 
 }

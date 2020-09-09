@@ -235,15 +235,17 @@ article
 	margin-left: 54px;	
 }
 
-#bloc_droit
+.bloc_droit
 {
 	display: flex;
 	flex-direction: column;
 	margin: -25.9% 12% 50px 35%;
 }
 
-.haut_droit
-{
+.bloc_droit_1
+{	display: flex;
+	flex-direction: column;
+	margin: -25.9% 12% 50px 35%;
 	text-align: left;
 	margin-bottom: 14.5%;
 }
@@ -362,12 +364,17 @@ aside h1, aside h2, aside h3
 	padding-left: 3px;
 }
 
-.fa-pen-nib, .fa-briefcase, .fa-glasses, .fa-dot-circle, .fa-circle
+
+.marges_parties i, .bloc_general i
 {
-	position: absolute;
-  	top: -9999px;
-  	left: -9999px;
+	display: none;
 }
+
+#bloc_droit
+{
+
+}
+
 
 #photo_Miss_L
 {	

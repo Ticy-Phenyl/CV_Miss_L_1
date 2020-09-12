@@ -168,12 +168,14 @@ article
 }
 
 #about_me
-{
-	
-	margin-left: 35px;
-	margin-bottom: 62%;
-	text-align: left;
-	word-spacing: 1rem;
+{	
+	width: 375px;
+	height: 64px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	padding: 0 35px 0 35px;
+	margin-bottom: 242px;
+	text-align: justify;	
 }
 
 #formation

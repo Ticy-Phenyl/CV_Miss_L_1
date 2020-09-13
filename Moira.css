@@ -260,7 +260,7 @@ article
 }
 
 
-@media all and (max-width: 1040px)
+@media all and (max-width: 480px)
 {
 
 #conteneur
@@ -273,6 +273,10 @@ article
 p
 {
 	color: #FF9800;
+	padding-right: inherit;
+	margin-left: 25px;
+	padding-left: 12px;
+	width: min-content;
 }
 
 .paragraphe b
@@ -324,6 +328,11 @@ aside h1, aside h2, aside h3
 	padding-left: 35px;
 }
 
+article h5
+{
+	margin-top: 155px;
+}
+
 
 .marges_parties i, .bloc_general i
 {
@@ -352,10 +361,14 @@ aside h1, aside h2, aside h3
 	flex-direction: column;
 }
 
+.bloc_2_droite
+{
+	height: 222px;
+	width: 150px;
+}
+
 #about_me
 {
 	text-align: left;
-	word-spacing: normal;
-}
-
+	padding-right: 15em;
 }

@@ -1,13 +1,14 @@
 #conteneur
 {
 	display: flex;	
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body
 {
 	font: 1em/100% Helvetica, Arial, sans-serif;
 	display: flex;
-	padding-left: 20%;
 	color: #616161;
 }
 
@@ -19,13 +20,13 @@ body
 
 aside
 {
-    background-color: #9C27B0;
-    color: #212121;
-    font-size: 0.9em;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    /* width pour modifier longueur aside */
+	background-color: #9C27B0;
+	color: #212121;
+	font-size: 0.9em;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	/* width pour modifier longueur aside */
 }
 
 .marges_parties
@@ -187,9 +188,9 @@ article
 {	
 	display: flex;
 	flex-direction: row;
-  	padding: 0px 90px 20px 50px;
-  	width: 680px;
-  	margin-top: 40px;
+	padding: 0px 90px 20px 50px;
+	width: 680px;
+	margin-top: 40px;
 }
 
 .paragraphe div
@@ -222,7 +223,7 @@ article
 	padding-left: 55px;
 	margin-top: -4px;
 	width: 331.483px;
-    height: 120px;
+	height: 120px;
 }
 
 #noms
@@ -263,112 +264,113 @@ article
 @media all and (max-width: 480px)
 {
 
-#conteneur
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-}
+	#conteneur
+	{
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+	}
 
-p
-{
-	color: #FF9800;
-	padding-right: inherit;
-	margin-left: 25px;
-	padding-left: 12px;
-	width: min-content;
-}
+	p
+	{
+		color: #FF9800;
+		padding-right: inherit;
+		margin-left: 25px;
+		padding-left: 12px;
+		width: min-content;
+	}
 
-.paragraphe b
-{
-	font-size: 1em;
-}
+	.paragraphe b
+	{
+		font-size: 1em;
+	}
 
-#about_me
-{
-	text-align: justify-all;
-}
+	#about_me
+	{
+		text-align: justify-all;
+	}
 
-#loisirs
-{
-	justify-content: flex-start;
-}
+	#loisirs
+	{
+		justify-content: flex-start;
+	}
 
-.poste
-{
-	font-weight: bold;
-	color: #9C27B0;
-}
+	.poste
+	{
+		font-weight: bold;
+		color: #9C27B0;
+	}
 
-header h1
-{
-	width: auto;
-	font-family: '20_dbregular';
-	text-align: justify;
-	font-size: 1.8em;
-	margin-right: 62%;
-}
+	header h1
+	{
+		width: auto;
+		font-family: '20_dbregular';
+		text-align: justify;
+		font-size: 1.8em;
+		margin-right: 62%;
+	}
 
-header h2
-{
-	font-size: 1.2em;
-}
+	header h2
+	{
+		font-size: 1.2em;
+	}
 
-article h4, h5, h6
-{
-	font-size: 1.5em;
-	margin-right: 75%;
-}
-
-
-aside h1, aside h2, aside h3
-{
-	font-size: 1.3em;
-	justify-content: flex-start;
-	padding-left: 35px;
-}
-
-article h5
-{
-	margin-top: 25%;
-}
+	article h4, h5, h6
+	{
+		font-size: 1.5em;
+		margin-right: 75%;
+	}
 
 
-.marges_parties i, .bloc_general i
-{
-	display: none;
-}
+	aside h1, aside h2, aside h3
+	{
+		font-size: 1.3em;
+		justify-content: flex-start;
+		padding-left: 35px;
+	}
+
+	article h5
+	{
+		margin-top: 25%;
+	}
 
 
-#photo_Miss_L
-{	
-	position: initial;
-	top: 25px;
-	right: 270px;
-	border-radius: 10px / 10px;
-}
+	.marges_parties i, .bloc_general i
+	{
+		display: none;
+	}
 
-#noms
-{
-	display: flex;
-	flex-direction: column;
-	/* à conserver pour passage en vertical*/
-}
 
-.paragraphe
-{
-	display: flex;
-	flex-direction: column;
-}
+	#photo_Miss_L
+	{	
+		position: initial;
+		top: 25px;
+		right: 270px;
+		border-radius: 10px / 10px;
+	}
 
-.bloc_2_droite
-{
-	height: 222px;
-	width: 150px;
-}
+	#noms
+	{
+		display: flex;
+		flex-direction: column;
+		/* à conserver pour passage en vertical*/
+	}
 
-#about_me
-{
-	text-align: left;
-	padding-right: 15em;
+	.paragraphe
+	{
+		display: flex;
+		flex-direction: column;
+	}
+
+	.bloc_2_droite
+	{
+		height: 222px;
+		width: 150px;
+	}
+
+	#about_me
+	{ 
+		text-align: left;
+		padding-right: 15em;
+	}
 }

@@ -261,7 +261,7 @@ section
 }
 
 
-@media all and (min-width: 480px) and (max-width: 1024px)
+@media all and (max-width: 1024px)
 {
 
 	#conteneur
@@ -285,6 +285,11 @@ section
 		padding-top: 0;
 	}
 
+	header
+	{
+		margin-left: -40px;
+	}
+
 	p
 	{
 		color: #FF9800;
@@ -292,18 +297,18 @@ section
 	}
 
 	#titre
-	{
+	{	width: auto;
 		margin-top: 40px;
 		padding-top: 2%;
 	}
 
 	#coordonnees
 	{
-		margin: -63% 8px 0 195px;
-		vertical-align: baseline;
+		margin: -66% 8px 0 195px;
 	}
 
-	#coordonnees p::first-line{
+	#coordonnees p::first-line
+	{
 		color: #FFFFFF;
 	}
 
@@ -317,6 +322,13 @@ section
 		text-align: left;
 		padding-right: 0;
 		padding-left: 5px;
+		margin-bottom: 210px;
+	}
+
+	#about_me p
+	{
+		padding-top: 0;
+		margin-top: 10px;
 	}
 
 	#partie_loisirs
@@ -336,7 +348,6 @@ section
 
 	header h1
 	{
-		width: auto;
 		font-family: '20_dbregular';
 		text-align: justify;
 	}
@@ -363,11 +374,17 @@ section
 		font-size: 1.3em;
 		justify-content: space-around;
 		padding-left: 35px;
+		margin-bottom: 20px;
 	}
 
 	.marges_parties
 	{
 		margin-bottom: 0;
+	}
+
+	.marges_parties_photo
+	{
+		margin-bottom: 20px;
 	}
 
 	.marges_parties i, .bloc_general i
@@ -391,9 +408,20 @@ section
 
 	.paragraphe
 	{
-		display: flex;
 		flex-direction: column;
 		padding-right: 0;	
+		padding-left: 5px;
+	}
+
+	.paragraphe_left
+	{
+		margin-right: 0;
+		padding-left: 50px
+	}
+
+	.paragraphe_left_1
+	{
+		padding-right: 60%;
 	}
 
 	#formation, #exp_pro	
@@ -419,6 +447,47 @@ section
 	.bloc_general
 	{
 		display: flex;
+	}
+
+}
+
+
+@media only screen and (max-width: 440px)
+{
+
+	#conteneur
+	{
+		flex-direction: column;
+	}
+
+	header h1
+	{
+		font-size: 1.3em;
+	}
+
+	header h1 i
+	{
+		color: #FFFFFF;
+	}
+
+
+	#photo_Miss_L
+	{
+		width: 125px;
+		height: auto;
+	}
+
+	aside
+	{
+		width: 100%;
+		display: table;
+		font-size: smaller;
+	}
+
+	header
+	{
+		display: flex;
+
 	}
 
 }

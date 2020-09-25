@@ -91,6 +91,11 @@ aside h3
 	border-radius: 50%;		
 }
 
+#title_mobile
+{
+	display: none;
+}
+
 header
 {
 	margin-top: -25px;
@@ -168,6 +173,11 @@ section
 	margin-left: 35px;
 }
 
+#Skype_responsive
+{
+	display: none;
+}
+
 #about_me
 {	
 	width: 375px;
@@ -209,6 +219,11 @@ section
 	margin-top: 0px;
 	width: 200px;
 	vertical-align: baseline;
+}
+
+.new_poste
+{
+	display: none;
 }
 
 #bloc_general
@@ -273,8 +288,7 @@ section
 	aside
 	{
 		width: 39%;
-		display: flex;
-		height: 900px;
+		height: 100%;
 	}
 
 	section
@@ -302,14 +316,31 @@ section
 		padding-top: 2%;
 	}
 
-	#coordonnees
+	.new_poste
 	{
-		margin: -66% 8px 0 195px;
+		display: block;
 	}
 
 	#coordonnees p::first-line
 	{
 		color: #FFFFFF;
+	}
+
+	#Skype_desktop
+	{
+		display: none;
+	}
+
+	#Skype_responsive
+	{
+		display: block;
+		margin-right: 73px;
+	}
+
+	#coordonnees_responsive
+	{
+		display: flex;
+		flex-direction: row;
 	}
 
 	.paragraphe b
@@ -320,9 +351,10 @@ section
 	#about_me
 	{
 		text-align: left;
+		width: auto;
 		padding-right: 0;
 		padding-left: 5px;
-		margin-bottom: 210px;
+		margin-bottom: 250px;
 	}
 
 	#about_me p
@@ -333,7 +365,7 @@ section
 
 	#partie_loisirs
 	{
-		margin-top: -5px;
+		margin-top: auto;
 		padding-top: 0px;
 	}
 
@@ -344,6 +376,11 @@ section
 		font-weight: bold;
 		color: #9C27B0;
 		font-size: 1.2em;
+	}
+
+	.poste_responsive
+	{
+		display: none;
 	}
 
 	header h1
@@ -394,8 +431,8 @@ section
 
 	#photo_Miss_L
 	{	
-		height: 240px;
-		margin: 0 0 0 3px;
+		height: auto;
+		margin: auto;
 		position: initial;
 		border-radius: 10px / 10px;
 		padding : 5px 0 0 0;
@@ -452,7 +489,7 @@ section
 }
 
 
-@media only screen and (max-width: 440px)
+@media all and (max-width: 425px)
 {
 
 	#conteneur
@@ -460,34 +497,151 @@ section
 		flex-direction: column;
 	}
 
-	header h1
+	body
 	{
+		width: 420px;
+	}
+
+	#title_mobile
+	{
+		display: block;
+		margin-top: -25%;
+   	 	margin-left: 85px;
+	}
+
+	aside h1
+	{
+		display: block;
 		font-size: 1.3em;
+		display: flex;
+		justify-content: space-around;
+		padding-left: 35px;
+		margin-bottom: 20px;
 	}
 
-	header h1 i
+	aside h1, aside h2, aside h3
 	{
-		color: #FFFFFF;
+		justify-content: flex-start;
 	}
 
+	aside h5
+	{
+		font-size: x-large;
+		color: #fafafa;
+		margin-top: 45px;
+	}
+
+	aside h6
+	{
+		font-size: large;
+		margin-top: -30px;
+		margin-bottom: 50px;
+	}
 
 	#photo_Miss_L
 	{
 		width: 125px;
 		height: auto;
+		padding-left: 5px;
 	}
 
 	aside
 	{
-		width: 100%;
+		width: 425px;
 		display: table;
 		font-size: smaller;
 	}
 
 	header
 	{
-		display: flex;
+		display: none;
 
+	}
+
+	#coordonnees
+	{
+		font-size: medium;
+	}
+
+	#coordonnees_responsive
+	{
+		width: 300px;
+	}
+
+	#about_me
+	{
+		width: 375px;
+	}
+
+	#loisirs
+	{
+		margin-left: -20px;
+	}
+
+	section
+	{
+		background-color: #9C27B0;
+		color: #FF9800;
+	}
+
+	section h4, section h5, section h6
+	{
+		color: #FFFFFF;
+		padding-left: 45px;
+	}
+
+	hr
+	{
+		width: auto;
+	}
+
+	#exp_pro, #recommandations
+	{
+		margin-top: 160px;
+	}
+
+	.poste
+	{
+		color: #212121;
+	}
+
+	.bloc_general
+	{
+		flex-direction: column;
+	}
+
+	.paragraphe
+	{
+		margin-left: 0;
+		padding-left: 50px;
+
+	}
+
+	.paragraphe b
+	{
+		color: #FF5722;
+	}
+
+	.bloc_2_droite
+	{
+		width: 400px;
+		height: 150px;
+	}
+
+	section h6
+	{
+		margin-top: 340px;
+	}
+
+	#noms
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	
+	#noms b
+	{
+		color: #FF5722;
 	}
 
 }

@@ -365,7 +365,6 @@ section
 
 	#partie_loisirs
 	{
-		margin-top: auto;
 		padding-top: 0px;
 	}
 
@@ -464,7 +463,6 @@ section
 	#formation, #exp_pro	
 	{	
 		width: 200px;
-		margin-top: -40px;
 		margin-left: -40px;
 		height: 325px;
 	}
@@ -506,7 +504,7 @@ section
 	{
 		display: block;
 		margin-top: -25%;
-   	 	margin-left: 85px;
+		margin-left: 85px;
 	}
 
 	aside h1
@@ -542,13 +540,12 @@ section
 	{
 		width: 125px;
 		height: auto;
-		padding-left: 5px;
+		padding-right: 69%;
 	}
 
 	aside
 	{
-		width: 425px;
-		display: table;
+		width: 100%;
 		font-size: smaller;
 	}
 
@@ -573,9 +570,14 @@ section
 		width: 375px;
 	}
 
+	#partie_loisirs
+	{
+		margin-top: 0;
+	}
+
 	#loisirs
 	{
-		margin-left: -20px;
+		margin-left: 0;
 	}
 
 	section

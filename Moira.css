@@ -321,6 +321,8 @@ section
 		display: block;
 	}
 
+
+
 	#coordonnees p::first-line
 	{
 		color: #FFFFFF;
@@ -493,11 +495,14 @@ section
 	#conteneur
 	{
 		flex-direction: column;
+		height: 100%;
+		width: 100%;
+		margin: auto;
 	}
 
 	body
 	{
-		width: 420px;
+		width: 100%;
 	}
 
 	#title_mobile
@@ -594,7 +599,8 @@ section
 
 	hr
 	{
-		width: auto;
+		width: 150px;
+		height: 2px;
 	}
 
 	#exp_pro, #recommandations

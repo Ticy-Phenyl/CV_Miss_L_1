@@ -22,7 +22,7 @@ aside
 {
 	background-color: #9C27B0;
 	color: #212121;
-	font-size: 0.9em;
+	font-size: 1.1em;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
@@ -153,7 +153,6 @@ section
 {
 	display: flex;
 	padding-top: 22%;
-	margin-bottom: -20px;
 }
 
 #photo_Miss_L
@@ -171,11 +170,6 @@ section
 #coordonnees
 {
 	margin-left: 35px;
-}
-
-#Skype_responsive
-{
-	display: none;
 }
 
 #about_me
@@ -199,7 +193,7 @@ section
 	display: flex;
 	flex-direction: row;
 	padding: 0px 90px 20px 50px;
-	width: 680px;
+	width: auto;
 	margin-top: 40px;
 }
 
@@ -280,15 +274,26 @@ section
 {
 
 	#conteneur
-	{
+	{	max-width: 1100px;
 		width: 100%;
 		height: 100%;
 	}
 
 	aside
 	{
-		width: 39%;
-		height: 100%;
+		width: 30%;
+		height: auto;
+	}
+
+	aside h1, h2, h3
+	{
+		line-height: normal;
+		font-size: 22px;
+	}
+
+	article
+	{
+		width: 70%;
 	}
 
 	section
@@ -299,191 +304,48 @@ section
 		padding-top: 0;
 	}
 
-	header
+	#photo_Miss_L
 	{
-		margin-left: -40px;
-	}
-
-	p
-	{
-		color: #FF9800;
 		width: 100%;
+		height: auto;
+		padding-top: 5px;
+		border-radius: 10%;
+		margin: initial;
 	}
 
-	#titre
-	{	width: auto;
-		margin-top: 40px;
-		padding-top: 2%;
-	}
-
-	.new_poste
+	#coordonnees
 	{
-		display: block;
+		text-align: center;
+		margin-left: auto;
+		word-break: break-word;
 	}
 
-
-
-	#coordonnees p::first-line
+	#coordonnees p:first-line
 	{
 		color: #FFFFFF;
 	}
 
-	#Skype_desktop
-	{
-		display: none;
-	}
-
-	#Skype_responsive
-	{
-		display: block;
-		margin-right: 73px;
-	}
-
-	#coordonnees_responsive
-	{
-		display: flex;
-		flex-direction: row;
-	}
-
-	.paragraphe b
-	{
-		font-size: 1.5em;
-	}
-
 	#about_me
 	{
-		text-align: left;
 		width: auto;
-		padding-right: 0;
-		padding-left: 5px;
-		margin-bottom: 250px;
-	}
-
-	#about_me p
-	{
-		padding-top: 0;
-		margin-top: 10px;
+		height: auto;
+		margin: auto;
+		hyphens: auto;
 	}
 
 	#partie_loisirs
 	{
-		padding-top: 0px;
-	}
-
-	.poste
-	{
-		padding-bottom: 25px;
-		margin-top: -25px;
-		font-weight: bold;
-		color: #9C27B0;
-		font-size: 1.2em;
-	}
-
-	.poste_responsive
-	{
-		display: none;
-	}
-
-	header h1
-	{
-		font-family: '20_dbregular';
-		text-align: justify;
-	}
-
-	header h2
-	{
-		font-size: 1.2em;
-	}
-
-	section h4, h5, h6
-	{
-		width: 400px;	
-		font-size: 1.5em;
-		padding-left: 50px;
-	}
-
-	aside h1
-	{
-		display: none;
-	}
-
-	aside h2, aside h3
-	{
-		font-size: 1.3em;
-		justify-content: space-around;
-		padding-left: 35px;
-		margin-bottom: 20px;
-	}
-
-	.marges_parties
-	{
-		margin-bottom: 0;
-	}
-
-	.marges_parties_photo
-	{
-		margin-bottom: 20px;
-	}
-
-	.marges_parties i, .bloc_general i
-	{
-		display: none;
-	}
-
-	#photo_Miss_L
-	{	
-		height: auto;
-		margin: auto;
-		position: initial;
-		border-radius: 10px / 10px;
-		padding : 5px 0 0 0;
-	}
-
-	#noms
-	{
-		margin-top: 20px;
-	}
-
-	.paragraphe
-	{
-		flex-direction: column;
-		padding-right: 0;	
-		padding-left: 5px;
-	}
-
-	.paragraphe_left
-	{
-		margin-right: 0;
-		padding-left: 50px
-	}
-
-	.paragraphe_left_1
-	{
-		padding-right: 60%;
-	}
-
-	#formation, #exp_pro	
-	{	
-		width: 200px;
-		margin-left: -40px;
-		height: 325px;
-	}
-
-	#recommandations
-	{
-		margin-left: -40px;
+		margin-top: auto;
 	}
 
 	.bloc_2_droite
 	{
-		height: 222px;
-		width: 100%;
-		padding-left: 0;
+		height: auto;
 	}
 
-	.bloc_general
+	#formation
 	{
-		display: flex;
+		height: auto;
 	}
 
 }
@@ -505,17 +367,21 @@ section
 		width: 100%;
 	}
 
+	#titre
+	{
+		display: none;
+	}
+
 	#title_mobile
 	{
 		display: block;
-		margin-top: -25%;
-		margin-left: 85px;
+		margin-left: 35%;
+		margin-top: -75px;
 	}
 
 	aside h1
 	{
 		display: block;
-		font-size: 1.3em;
 		display: flex;
 		justify-content: space-around;
 		padding-left: 35px;
@@ -524,7 +390,8 @@ section
 
 	aside h1, aside h2, aside h3
 	{
-		justify-content: flex-start;
+		text-align: center;
+		font-size: 1.3em;
 	}
 
 	aside h5
@@ -532,7 +399,7 @@ section
 		width: auto;
 		font-size: x-large;
 		color: #fafafa;
-		margin-top: 45px;
+		margin-top: 0px;
 	}
 
 	aside h6
@@ -545,7 +412,7 @@ section
 
 	#photo_Miss_L
 	{
-		width: 125px;
+		width: auto;
 		height: auto;
 		padding-right: 69%;
 	}
@@ -562,14 +429,14 @@ section
 
 	}
 
+	article
+	{
+		width: 100%;
+	}
+
 	#coordonnees
 	{
 		font-size: medium;
-	}
-
-	#coordonnees_responsive
-	{
-		width: auto;
 	}
 
 	#about_me
@@ -584,13 +451,14 @@ section
 
 	#loisirs
 	{
-		margin-left: 0;
+		margin-left: auto;
 	}
 
 	section
 	{
 		background-color: #9C27B0;
 		color: #FF9800;
+		width: 100%;
 	}
 
 	section h4, section h5, section h6
@@ -605,9 +473,14 @@ section
 		height: 2px;
 	}
 
+	.marges_parties i, .bloc_general i
+	{
+		display: none;
+	}
+
 	#exp_pro, #recommandations
 	{
-		margin-top: 160px;
+		margin-top: auto;
 	}
 
 	.poste
@@ -636,12 +509,12 @@ section
 	.bloc_2_droite
 	{
 		width: auto;
-		height: 150px;
+		height: auto;
 	}
 
-	section h6
+	#recommandations
 	{
-		margin-top: 340px;
+		columns: auto;
 	}
 
 	#noms

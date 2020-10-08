@@ -139,6 +139,8 @@ section h4, section h5, section h6
 	color: #212121;
 	font-size: 30px;
 	margin-top: 40px;
+	display: flex;
+	line-height: initial;
 }
 
 section h6
@@ -157,6 +159,7 @@ section
 {
 	display: flex;
 	padding-top: 22%;
+	line-height: initial;
 }
 
 #photo_Miss_L
@@ -257,8 +260,8 @@ section
 	float: left;
 	padding-left: 50px;
 	display: flex;
-	width: 70px;
-	height: 30px;
+	width: auto;
+	height: auto;
 	font-weight: 900;
 }
 
@@ -338,6 +341,7 @@ section
 		height: auto;
 		margin: auto;
 		hyphens: auto;
+		word-break: break-word;
 	}
 
 	#partie_loisirs
@@ -349,17 +353,6 @@ section
 	{
 		display: initial;
 		line-height: initial;
-	}
-
-	section h4, section h5, section h6
-	{
-		display: flex;
-		line-height: initial;
-	}
-
-	#formation i, #exp_pro i, #recommandations i, .paragraphe
-	{
-		padding-left: 5px;
 	}
 
 	.bloc_2_droite
@@ -383,6 +376,11 @@ section
 		display: block;
 		width: 100%;
 		text-align: center;
+	}
+
+	#formation i, #exp_pro i, #recommandations i, .paragraphe
+	{
+		padding-left: 5px;
 	}
 
 }
@@ -451,7 +449,8 @@ section
 	{
 		width: auto;
 		height: auto;
-		margin-right: auto;
+		margin-right: 70%;
+		margin-left: 5px;
 	}
 
 	aside

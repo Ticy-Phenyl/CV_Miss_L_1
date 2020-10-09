@@ -292,6 +292,7 @@ section
 	{
 		width: 30%;
 		height: auto;
+		word-wrap: break-word;
 	}
 
 	aside h1, aside h2, aside h3
@@ -327,7 +328,6 @@ section
 	{
 		text-align: center;
 		margin-left: auto;
-		word-break: break-word;
 	}
 
 	#coordonnees p:first-line
@@ -341,7 +341,6 @@ section
 		height: auto;
 		margin: auto;
 		hyphens: auto;
-		word-break: break-word;
 	}
 
 	#partie_loisirs
@@ -386,7 +385,6 @@ section
 }
 
 
-
 @media all and (max-width: 425px)
 {
 
@@ -417,8 +415,6 @@ section
 
 	aside h1
 	{
-		display: block;
-		display: flex;
 		justify-content: space-around;
 		padding-left: 35px;
 		margin-bottom: 20px;

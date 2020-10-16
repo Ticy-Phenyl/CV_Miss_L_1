@@ -46,7 +46,7 @@ hr
 {
 	display: flex;
 	width: 95%;
-	color: #FF9800;
+	border-color: #FF9800;
 	margin: -11px 2px 0 3em;	
 }
 
@@ -119,6 +119,7 @@ header h1
 	font-family: fantasy;
 	font-weight: lighter;
 	color: #212121;
+    margin-bottom: 20px;
 }
 
 header h1, header h2
@@ -159,7 +160,6 @@ section
 {
 	display: flex;
 	padding-top: 22%;
-	line-height: initial;
 }
 
 #photo_Miss_L
@@ -431,7 +431,8 @@ section
 		width: auto;
 		font-size: x-large;
 		color: #fafafa;
-		margin-top: 0px;
+		margin-top: -20px;
+        line-height: normal;
 	}
 
 	aside h6
